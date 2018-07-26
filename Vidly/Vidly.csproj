@@ -218,6 +218,38 @@
     <Compile Include="Migrations\201807251527251_PopulateMembershipTypes.Designer.cs">
       <DependentUpon>201807251527251_PopulateMembershipTypes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201807260815598_ApplyAnnotationsToCustomerName.cs" />
+    <Compile Include="Migrations\201807260815598_ApplyAnnotationsToCustomerName.Designer.cs">
+      <DependentUpon>201807260815598_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807261046372_AddingName.cs" />
+    <Compile Include="Migrations\201807261046372_AddingName.Designer.cs">
+      <DependentUpon>201807261046372_AddingName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807261058006_PopulatingName.cs" />
+    <Compile Include="Migrations\201807261058006_PopulatingName.Designer.cs">
+      <DependentUpon>201807261058006_PopulatingName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807261113274_PopulateYearly.cs" />
+    <Compile Include="Migrations\201807261113274_PopulateYearly.Designer.cs">
+      <DependentUpon>201807261113274_PopulateYearly.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807261131439_BirthDate.cs" />
+    <Compile Include="Migrations\201807261131439_BirthDate.Designer.cs">
+      <DependentUpon>201807261131439_BirthDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807261134397_PopulateBirthdate.cs" />
+    <Compile Include="Migrations\201807261134397_PopulateBirthdate.Designer.cs">
+      <DependentUpon>201807261134397_PopulateBirthdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807261232247_ModifyMovieTable.cs" />
+    <Compile Include="Migrations\201807261232247_ModifyMovieTable.Designer.cs">
+      <DependentUpon>201807261232247_ModifyMovieTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807261243433_ModifyMovieTable1.cs" />
+    <Compile Include="Migrations\201807261243433_ModifyMovieTable1.Designer.cs">
+      <DependentUpon>201807261243433_ModifyMovieTable1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -230,6 +262,7 @@
     <Compile Include="ViewModel\RandomMovieViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap-darkly.css" />
     <Content Include="Content\bootstrap-lumen.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -295,6 +328,7 @@
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Shared\_NavBar.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -324,6 +358,30 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201807251527251_PopulateMembershipTypes.resx">
       <DependentUpon>201807251527251_PopulateMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807260815598_ApplyAnnotationsToCustomerName.resx">
+      <DependentUpon>201807260815598_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807261046372_AddingName.resx">
+      <DependentUpon>201807261046372_AddingName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807261058006_PopulatingName.resx">
+      <DependentUpon>201807261058006_PopulatingName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807261113274_PopulateYearly.resx">
+      <DependentUpon>201807261113274_PopulateYearly.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807261131439_BirthDate.resx">
+      <DependentUpon>201807261131439_BirthDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807261134397_PopulateBirthdate.resx">
+      <DependentUpon>201807261134397_PopulateBirthdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807261232247_ModifyMovieTable.resx">
+      <DependentUpon>201807261232247_ModifyMovieTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807261243433_ModifyMovieTable1.resx">
+      <DependentUpon>201807261243433_ModifyMovieTable1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
