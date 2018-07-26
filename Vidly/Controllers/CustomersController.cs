@@ -19,6 +19,17 @@ namespace Vidly.Controllers
         {
             _context.Dispose();
         }
+        public ActionResult New()
+        {
+            var membershipTypes = _context.MembershipTypes.ToList();
+            var viewModel = new NewCustomerViewModel
+            {
+                MembershipTypes = membershipTypes
+            };
+
+            return View(viewModel);
+        }
+
         public ActionResult Details(int id)
         {
             // THIS QUERY WILL BE IMMEDIATELY EXECUTED BECAUSE WE'RE USIGN SINGLEORDEFAULT 
